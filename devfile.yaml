@@ -65,10 +65,6 @@ components:
     volume:
       size: 256Mi
 
-  - name: localstack-volume
-    volume:
-      size: 512Mi
-
 commands:
   - id: maven-build-backend
     exec:
